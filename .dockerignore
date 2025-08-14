@@ -1,0 +1,21 @@
+# .dockerignore
+
+# Dependencias locales
+node_modules
+
+# Archivos de build y cache de Next.js (se generarán dentro del contenedor)
+.next
+out
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Archivos de entorno local (estos se deben gestionar como secretos en Cloud Run)
+.env
+.env*.local
+
+# Archivos de Vercel (no necesarios para Cloud Run)
+.vercel
