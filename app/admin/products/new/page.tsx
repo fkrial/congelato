@@ -1,10 +1,8 @@
-import AdminServerLayout from "@/components/admin/admin-server-layout";
+// File: app/admin/products/new/page.tsx
+
 import { NewProductClientPage } from "@/components/admin/products/new-product-client-page";
 
 export default function NewProductPage() {
-  return (
-    <AdminServerLayout>
-      <NewProductClientPage />
-    </AdminServerLayout>
-  );
+  // Simplemente devuelve el componente cliente que contiene el contenido de la página.
+  return <NewProductClientPage />;
 }
